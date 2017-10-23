@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen_splash"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="aman.studentmanagementsystem.SplashScreen">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/icon"
+    android:layout_centerVertical="true"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:fontFamily="sans-serif-light"
+    android:paddingLeft="95dp"
+    android:paddingBottom="90dp"
+    android:text="Student"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="55dp"
+        android:paddingBottom="55dp"
+        android:text="Management"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+</RelativeLayout>
